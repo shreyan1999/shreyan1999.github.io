@@ -1,6 +1,10 @@
 body {
     margin: 0;
     background-image: url("bg.png");
+    background-image: radial-gradient(circle, #05023b, #002457, #00416f, #005d81, #007a90, #007a90, #007a90, #007a90, #005d81, #00416f, #002457, #05023b);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 auto;
 }
 
 .innergrid.live,
@@ -66,6 +70,24 @@ div.marker {
     font-size: 40px;
     font-family: 'Ranchers', cursive;
     text-shadow: 1px 1px 2px #ffffff;
+}
+
+.rules {
+    text-align: center;
+    padding: 10px;
+    background: #00458b;
+    border-radius: 5px;
+    border: 3px 3px white;
+    margin: 15px;
+}
+
+.rules a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Ranchers', cursive;
+    font-size: 20px;
+    border: none;
 }
 
 #newGame {
