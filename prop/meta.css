@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background-image: url("bg.png");
+}
+
+.innergrid.live,
+.outergrid.live {
+    border: 1px rgb(136, 255, 0) solid;
+}
+
+.innergrid td {
+    border: 1px black solid;
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+
+.outergrid {
+    border: 1px transparent solid;
+    margin: 0 auto 20px;
+    width: 650px;
+    height: 650px;
+    background-color:rgb(11, 46, 6);
+}
+
+.innergrid {
+    border: 1px transparent solid;
+    width: 100%;
+    height: 100%;
+}
+
+td.red {
+    background-color: ;
+}
+
+td.blue {
+    background-color: #aaaaff;
+}
+
+.innergrid td.filled {
+    cursor: cursor;    
+}
+
+.blue {
+    background-color: #52b5e4;
+    color: #010021;
+}
+
+.red {
+    background-color: #ca2323;
+    color: #220909;
+}
+
+div.marker {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+
+#turn {
+    width: 560px;
+    margin: auto;
+    box-shadow: 0 0 5px 5px #0A0A0A;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family: Arial;
+    text-shadow: 1px 1px 2px #ffffff;
+}
+
+#newGame {
+    width: 400px;
+    margin: auto;
+    font-size: 40px;
+    font-family: Arial;
+    text-shadow: 1px 1px 2px #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 5px 5px #0A0A0A;
+    background-color: #08A300;
+    color: #056900;
+    text-shadow: 1px 1px 2px #ffffff;
+    border: none;
+    display: none;
+    cursor: pointer;
+}
