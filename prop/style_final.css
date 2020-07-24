@@ -1,0 +1,251 @@
+.front-page {
+    width: 600px;
+    height: 600px;
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+}
+
+.select {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+canvas {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+}
+
+body {
+    background-image: radial-gradient(circle, #05023b, #002457, #00416f, #005d81, #007a90, #007a90, #007a90, #007a90, #005d81, #00416f, #002457, #05023b);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+
+.rules {
+    padding: 1em 1.5em 0.4em 1em;
+}
+
+.rules a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 20px;
+    border: 3px 3px black;
+}
+
+.rules button {
+    text-align: center;
+    padding: 10px;
+    background: #00458b;
+    text-decoration: none;
+    color: #fff;
+    font-weight: lighter;
+    font-family: 'Ranchers', cursive;
+    border-radius: 5px;
+    border: 3px 3px white;
+    margin-right: 10px;
+}
+
+#mainpage {
+    position: absolute;
+    background: #051622;
+    border: 3px solid #00458b;
+}
+
+.select {
+    position: absolute;
+    width: 700px;
+    height: 650px;
+}
+
+.cent {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+button {
+    text-align: center;
+    padding: 5px;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.select h1 {
+    text-align: center;
+    text-shadow: 3px grey;
+    position: relative;
+    font-size: 60px;
+    font-family: 'Ranchers', cursive;
+    font-weight: lighter;
+    color: white;
+    margin: 25px 0px 20px 0px;
+}
+
+.select h2 {
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    color: #99ddff;
+    margin-top: 5px;
+    font-weight: lighter;
+    font-size: 19px;
+    padding: 8px;
+}
+
+.select div {
+    display: inline-block;
+}
+
+.select .comp,
+.x {
+    font-family: 'Concert One', cursive;
+    font-weight: lighter;
+    padding: 3px;
+    color: #051622;
+    background-color: #FFF;
+    color: #051622;
+    font-size: 1.5em;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #051622;
+}
+
+.select .friend,
+.x {
+    margin-left: 2em;
+}
+
+.select .friend,
+.o {
+    font-family: 'Concert One', cursive;
+    font-weight: lighter;
+    padding: 3px;
+    background-color: #FFF;
+    color: #051622;
+    font-size: 1.5em;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #051622;
+}
+
+.select .zero,
+.one,
+.two,
+.three,
+.four {
+    font-family: 'Concert One', cursive;
+    padding: 3px;
+    background-color: #FFF;
+    color: #00458b;
+    font-size: 1.5em;
+    border-radius: 5px;
+    margin: 0em 1em;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #051622;
+}
+
+.select .grid3,
+.grid4,
+.grid5 {
+    font-family: 'Concert One', cursive;
+    background-color: #FFF;
+    color: #051622;
+    font-size: 1.5em;
+    border-radius: 5px;
+    width: 30px;
+    margin: 0em 1em;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #051622;
+}
+
+.select .play {
+    font-family: 'Ranchers', cursive;
+    font-weight: lighter;
+    padding: 7px;
+    background-color: #3fd2c7;
+    color: #051622;
+    font-size: 1.5em;
+    border-radius: 5px;
+    margin-top: -20px;
+    width: 70px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #051622;
+}
+
+.select .friend:hover,
+.comp:hover,
+.x:hover,
+.o:hover,
+.zero:hover,
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover {
+    background-color: #dec79b;
+    color: #FFF;
+}
+
+.rules a:hover {
+    color: #99ddff;
+    text-decoration: none;
+    font-family: 'Ranchers', cursive;
+    font-weight: lighter;
+}
+
+.select .grid3:hover,
+.grid4:hover,
+.grid5:hover {
+    background-color: #dec79b;
+    color: #fff;
+    box-shadow: 3px #fff;
+}
+
+.select .play:hover {
+    background-color: #00a9d8;
+}
+
+.active {
+    background-color: #d48166 !important;
+}
+
+.hide {
+    display: none;
+}
+h3{
+    width: 600px;
+    height:40px;
+    text-align: center;
+    font-size: 40px ;
+}
+
+@media (max-width: 992px) {
+    .rules button {
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) and (min-width: 360px) {}

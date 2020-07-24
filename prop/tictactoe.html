@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Tic Tac Toe - Runtime Error</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style_final.css" />
+    <link rel="shortcut icon " href="tic-tac-toe.png" type="image/x-icon ">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Monoton&family=Ranchers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="rules cent">
+            <button><a href="rules.html"> Game Rules</a></button>
+            <button><a href="tictactoe.html"> New Game</a></button>
+        </div>
+        <div class="front-page ">
+            <h3 id="heading"></h3>
+            <div class="wrapper ">
+                <canvas id="mainpage" width="600" height="600"></canvas>
+            </div>
+            <div class="select">
+                <h1 class="head">
+                    Tic-Tac-Toe
+                </h1>
+                <h2>
+                    Versus
+                </h2>
+                <div class="cent">
+                    <button class="comp">COMPUTER</button>
+                    <button class="friend">FRIEND</button>
+                </div>
+                <h2>
+                    Select Symbol
+                </h2>
+                <div class="cent">
+                    <button class="o">O</button>
+                    <button class="x">X</button>
+                </div>
+                <h2>
+                    Depth
+                </h2>
+                <div class="cent">
+                    <button class="zero" id="depth0">0</button>
+                    <button class="one" id="depth1">1</button>
+                    <button class="two" id="depth2">2</button>
+                    <button class="three" id="depth3">3</button>
+                    <button class="four" id="depth4">4</button>
+                </div>
+
+                <h2>
+                    Grid Size
+                </h2>
+                <div class="cent">
+                    <div class="btn">
+                        <button class="grid3">3</button>
+                        <button class="grid4">4</button>
+                        <button class="grid5">5</button>
+                    </div>
+                </div>
+                <br><br>
+                <div class="cent">
+                    <button class="play">PLAY</button>
+                </div>
+            </div>
+            <div class="gameover hide"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="minimax.js"></script>
+</body>
+
+</html>
